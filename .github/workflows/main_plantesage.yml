@@ -52,4 +52,4 @@ jobs:
         with:
           app-name: 'plantesAge'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F8C7ED2587F4AD0B946EF919FE1CE95 }}
-          package: ./dist/planetsAge
+          package: ./dist/AzureDeploymentTests
