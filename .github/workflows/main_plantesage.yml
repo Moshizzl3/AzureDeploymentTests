@@ -51,6 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'plantesAge'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F8C7ED2587F4AD0B946EF919FE1CE95 }}
-          package: .
+          package: ./dist/planetsAge
